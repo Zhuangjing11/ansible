@@ -1,0 +1,4 @@
+---
+
+- name: 新建文件one.txt
+  file: dest=/root/ state=directory

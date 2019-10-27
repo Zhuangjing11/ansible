@@ -1,0 +1,11 @@
+---
+- hosts: test1
+  remote_user: root
+
+  tasks:
+    - name: one
+      include: ./task1.yml
+
+    - name: two
+      include: ./task2.yml
+
